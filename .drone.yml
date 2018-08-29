@@ -1,6 +1,6 @@
 pipeline:
   build:
-    image: docker:stable
+    image: quay.io/ukhomeofficedigital/drone-docker
     environment:
       - DOCKER_HOST=tcp://172.17.0.1:2375
     commands:
